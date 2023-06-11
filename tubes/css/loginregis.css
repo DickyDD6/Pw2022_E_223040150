@@ -33,7 +33,7 @@ form {
   }
   
   form button[type="submit"] {
-    background-color: #333;
+    background-color: #1fd51f;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -46,6 +46,6 @@ form {
   }
   
   form button[type="submit"]:hover {
-    background-color: #666;
+    background-color: #1fd51f;
   }
-/* tampilan admin */
+

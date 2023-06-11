@@ -1,4 +1,10 @@
 /* CSS for the navigation bar */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   background-color: #333;
   color: #fff;
@@ -27,6 +33,10 @@ nav ul li a {
   padding: 10px;
   text-decoration: none;
 }
+
+
+
+
 
 /* CSS for the hero section */
  
@@ -121,29 +131,6 @@ nav ul li a {
   margin-bottom: 20px;
 }
 
-/* Post Job Section */
-.post-job {
-  padding: 4rem 0;
-  text-align: center;
-}
-
-.post-job h2 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-}
-
-.post-job form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.post-job label {
-  font-size: 1.2rem;
-  margin-bottom: 0;
-}
 
 /* CSS for the button */
 .btn {
